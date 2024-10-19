@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  border: 3px solid red;
+  min-height: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.mini-container {
+  border: 3px solid red;
+  min-height: 50px;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.wrap {
+  background-color: #fafafa;
+}
+.logo {
+  width: 94px;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+.navbar-link {
+  font-size: 14px;
+  color: #353732;
+}
+.header {
+  margin: 105px 0;
+}
+.header h2 {
+  margin-top: 20px;
+  font-size: 36px;
+  font-weight: 400;
+}
+.travel {
+  padding-top: 105px;
+}
+.travel-content {
+  display: flex;
+  justify-content: space-between;
+}
+.travel-left {
+  background-color: #fff;
+  width: 507px;
+}
+.travel img {
+  width: 100%;
+}
+.travel-text {
+  padding: 20px 20px 30px;
+}
+.travel-minititle {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: arial;
+  color: #353732;
+}
+.travel-left h3 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #45525b;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.travel-left p {
+  font-size: 14px;
+  color: #45525b;
+  line-height: 23px;
+  margin-bottom: 60px;
+}
+.travel-date {
+  font-size: 11px;
+  color: #45525b;
+}
+.travel-right {
+  width: 243px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.travel-right__card {
+  background-color: #fff;
+}
+.travel-right__card h4 {
+  font-size: 16px;
+  color: #45525b;
+  font-weight: 400;
+  margin: 10px 0;
+}
